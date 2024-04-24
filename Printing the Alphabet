@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    char letter = 'a';
+    
+    cout << "Alphabet from 'a' to 'z':" << endl;
+    
+    while (letter <= 'z') {
+        cout << letter << " ";
+        letter++;
+    }
+    
+    cout << endl;
+    
+    return 0;
+}
